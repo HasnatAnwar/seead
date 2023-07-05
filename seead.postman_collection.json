@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "83935d4c-2494-4732-a1e6-83bc54c73049",
+		"name": "seead",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "location alll",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"url": "http://127.0.0.1:8000/location/all"
+			},
+			"response": []
+		},
+		{
+			"name": "location post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "loc_name",
+							"value": "karachi",
+							"type": "default"
+						},
+						{
+							"key": "loc_limit",
+							"value": "200",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/location/post"
+			},
+			"response": []
+		},
+		{
+			"name": "location get with id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"url": "http://127.0.0.1:8000/location/get/2"
+			},
+			"response": []
+		},
+		{
+			"name": "location update with id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "loc_limit",
+							"value": "79",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/location/put/2"
+			},
+			"response": []
+		},
+		{
+			"name": "location delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "loc_limit",
+							"value": "79",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/location/put/2"
+			},
+			"response": []
+		},
+		{
+			"name": "ad all",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "loc_limit",
+							"value": "79",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/location/put/2"
+			},
+			"response": []
+		},
+		{
+			"name": "ads all",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"url": "http://127.0.0.1:8000/ads/all"
+			},
+			"response": []
+		},
+		{
+			"name": "ads post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ad_name",
+							"value": "The second one",
+							"type": "default"
+						},
+						{
+							"key": "ad_start",
+							"value": "2023-07-16",
+							"type": "default"
+						},
+						{
+							"key": "ad_end",
+							"value": "2023-07-07",
+							"type": "default"
+						},
+						{
+							"key": "ad_loc",
+							"value": "1",
+							"type": "default"
+						},
+						{
+							"key": "ad_visits",
+							"value": "",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/ads/post"
+			},
+			"response": []
+		},
+		{
+			"name": "ad get with id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": "http://127.0.0.1:8000/ads/get/1"
+			},
+			"response": []
+		},
+		{
+			"name": "ad update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ad_name",
+							"value": "Yes this is Second",
+							"type": "default"
+						},
+						{
+							"key": "ad_visits",
+							"value": "999",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/ads/put/1"
+			},
+			"response": []
+		},
+		{
+			"name": "ad delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "loc_limit",
+							"value": "79",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/ads/delete/2"
+			},
+			"response": []
+		},
+		{
+			"name": "ads visite",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 6e3f9a967277ddc995bc2a3743972309a7cfa956",
+						"type": "default"
+					}
+				],
+				"url": "http://127.0.0.1:8000/ads/visits/1"
+			},
+			"response": []
+		}
+	]
+}

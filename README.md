@@ -1,5 +1,5 @@
 
-# An Ads Managmen tool 
+# An Ads Managment tool 
 ## See Ad
 
 In this app we used python Django framework with third party 

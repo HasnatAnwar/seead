@@ -1,5 +1,6 @@
 
-# Django Chat Application Backend
+# An Ads Managmen tool 
+## See Ad
 
 In this app we used python Django framework with third party 
 DRF to make Backend. The main purpose of this how to
@@ -12,6 +13,7 @@ real time senerio in Django.
 - django-restframework
 - channels
 - redis
+- crontab
 
 
 Django rest framework is used to Produce APIs (backend).
@@ -49,7 +51,7 @@ And to use WEb socket Real Time senerio see "websocket.txt" file
 
 ## Appendix
 
-This is Dumy project for my porfolio. 
+This is Dummy project for my porfolio. 
 
 
 
@@ -58,10 +60,18 @@ This is Dumy project for my porfolio.
 I am a full stack web developer and UI/UX Designer.
 I am Using these tools to work as Developer or Designer
 
-    - React Js (Frontend)
-    - Django rest framework (Backend)
-    - Django (FullStack)
-    - Figma & Adobe XD (UI/UX)
+    - React Js 
+    - Django rest framework 
+    - Django 
+    - Node JS
+    - Express JS
+    - Mongo DB 
+    - Postgre SQL
+    - DB Sqlite 3
+    - React Native
+    - Figma 
+    - Adobe XD
+    
 
 If you want to hire me Please contact me at any freelance marketplace.
 
